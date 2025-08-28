@@ -1,7 +1,6 @@
 class Solution:
     def maximumWealth(self, accounts: List[List[int]]) -> int:
-        acc = []
-        
-        for row in accounts:
-            acc.append(sum(row))
-        return max(acc)
+        return max([sum(acc) for acc in accounts])
+    
+# Time complexity: O(m x n)
+# Space complexity: O(1)
