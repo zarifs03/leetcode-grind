@@ -8,5 +8,5 @@ class Solution:
             seen.add(num)
         return False
     
-# Time complexity: 0(n)
+# Time complexity: O(n)
 # Space complexity: O(n)

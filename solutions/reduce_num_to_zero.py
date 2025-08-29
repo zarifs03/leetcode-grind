@@ -12,4 +12,4 @@ class Solution:
         return steps
 
 # Time complexity: O(log n)
-# Space complexity; O(1)
+# Space complexity: O(1)
