@@ -16,3 +16,17 @@ class Solution:
 
 # Time complexity: O(n)
 # Space complexity: O(1)
+
+        # Alternative approach: copy linked list elements to an array and divide len(arr) by 2
+        # arr = []
+
+        # while head:
+        #     arr.append(head)
+        #     head = head.next
+        
+        # length = len(arr)
+        # return arr[length // 2] # floor division required for indexing
+
+# Time complexity: O(n)
+# Space complexity: O(n) 
+
